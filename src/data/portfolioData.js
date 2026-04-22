@@ -1,26 +1,24 @@
-// Troque apenas os textos e links deste arquivo para personalizar o portfolio.
+﻿// Troque apenas os textos e links deste arquivo para personalizar o portfolio.
 // A estrutura React ja esta pronta para renderizar tudo automaticamente.
 export const portfolioData = {
   profile: {
     name: 'Brunno Perfeito',
     initials: 'BP',
+    brandImage: '/favicon-fundo2.png',
     role: 'Desenvolvedor fullstack em formação',
     location: 'Rio das Ostras/RJ, Brasil',
     summary:
       ' Desenvolvedor focado em desenvolvimento backend com Node.js e Express, em constante evolução tecnica. Estou me especializando na criação de APIs, integração de sistemas e construção de aplicações escaláveis e eficientes. Busco oportunidades para aplicar meus conhecimentos, contribuir com soluções robustas e crescer profissionalmente na área da tecnologia.',
     focus:
-      'Estudando Node.js, JavaScript moderno, criação de APIs, integrações de sistemas, construção de aplicações escaláveis e eficientes, React, responsividade e boas praticas de estrutura.',
+      'Estudando Node.js, JavaScript moderno, criação de APIs, integração de sistemas, construção de aplicações escaláveis e eficientes, React, responsividade e boas praticas de estrutura.',
     availability: 'Disponivel para vagas de estágio e junior',
     email: 'mailto:brunnoperfeito.92@gmail.com',
     github: 'https://github.com/bperfeito',
     linkedin: 'https://www.linkedin.com/in/brunno-perfeito/',
-    instagram: 'https://www.instagram.com/bperfeito.dev/'
+    instagram: 'https://www.instagram.com/bperfeito.dev/',
+    resumeUrl: '/currículo-tech.pdf',
+    resumeFileName: 'currículo-tech.pdf',
   },
-  highlights: [
-    { value: '01', label: 'Portfolio pessoal em React e Vite' },
-    { value: '100%', label: 'aprendizado baseado em pratica' },
-    { value: '3x', label: 'espacos reservados para futuros cases' },
-  ],
   skills: [
     'HTML5',
     'CSS3',
@@ -28,6 +26,7 @@ export const portfolioData = {
     'Node.js',
     'Express',
     'APIs',
+    'SQL',
     'React',
     'Vite',
     'JSX',
@@ -35,6 +34,8 @@ export const portfolioData = {
     'Flexbox',
     'CSS Grid',
     'Responsividade',
+    'Git & GitHub',
+    'VsCode',
   ],
   projects: [
     {
@@ -55,7 +56,7 @@ export const portfolioData = {
       stack: ['HTML', 'CSS', 'JavaScript'],
       result:
         'Uma simples tela de formulario de cadastro, que pode ser usada para cadastros e criação de contas em sites.',
-      link: '#projetos',
+      link: 'https://github.com/Bperfeito/formul-rio-cadastro-responsivo',
     },
     {
       name: 'Em breve!',
@@ -67,3 +68,4 @@ export const portfolioData = {
     },
   ],
 }
+
