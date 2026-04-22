@@ -64,7 +64,7 @@ Hoje, sigo evoluindo meus conhecimentos com foco em desenvolvimento **backend**,
 Estou aberto a oportunidades e conexões:
 
 * LinkedIn: https://www.linkedin.com/in/brunno-perfeito/
-* Email: mailto:brunnoperfeito.92@gmail.com
+* Email: brunnoperfeito.92@gmail.com
 
 
 
