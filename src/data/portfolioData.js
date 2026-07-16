@@ -59,12 +59,13 @@ export const portfolioData = {
       link: 'https://github.com/Bperfeito/formul-rio-cadastro-responsivo',
     },
     {
-      name: 'Em breve!',
-      status: 'Futuro',
+      name: 'Sistema CRUD Completo',
+      status: 'Pronto',
       description:
-        'Espaco para um projeto mais interativo, com filtros, consumo de API ou gerenciamento de estado.',
-      stack: ['Node', 'Express', 'APIs',],
-      link: '#projetos',
+        'Desenvolvido com o objetivo de realizar o cadastro e gerenciamento de clientes de forma simples e eficiente.',
+      stack: ['PHP', 'MySQL', 'JavaScript'],
+      result: 'A aplicação permite cadastrar, consultar, editar e excluir informações dos clientes, utilizando operações CRUD completas e integração entre front-end e back-end.',
+      link: 'https://github.com/Bperfeito/sistema-crud-completo',
     },
   ],
 }
